@@ -1,6 +1,6 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/clydedc/roblox/refs/heads/main/Games/other.lua"))()
 local ClydexAzxLoader = Instance.new("ScreenGui")
-ClydexAzxLoader.Name = "ClydexAzx Loader"
+ClydexAzxLoader.Name = "Clyde x Azx Loader"
 ClydexAzxLoader.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ClydexAzxLoader.Parent = game:GetService("CoreGui")
 ClydexAzxLoader.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
