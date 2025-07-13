@@ -560,19 +560,19 @@ end)
 loadbtn.MouseButton1Click:Connect(function()
 	if selectedOption then
 		if selectedOption == "Arsenal" then
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/clydedc/roblox/refs/heads/main/Games/ClydexAzx%20Arsenal%20Beta.lua"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/clydedc/roblox/refs/heads/main/Games/Z3US%20Arsenal%20Beta.lua"))()
 		elseif selectedOption == "Planks" then
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/clydedc/roblox/refs/heads/main/Games/ClydexAzx%20Planks.lua"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/clydedc/roblox/refs/heads/main/Games/Z3US%20Planks.lua"))()
 		elseif selectedOption == "Rivals" then
 			getgenv().autoload = autoloadEnabled
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/clydedc/roblox/refs/heads/main/Games/ClydexAzx%20Rivals%20Beta.lua"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/clydedc/roblox/refs/heads/main/Games/Z3US%20Rivals%20Beta.lua"))()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/clydedc/roblox/refs/heads/main/Games/Test.lua"))()
 		elseif selectedOption == "Counterblox" then
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/clydedc/roblox/refs/heads/main/Games/ClydexAzx%20Counterblox.lua"))()
 		elseif selectedOption == "Gunfight Arena" then
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/clydedc/roblox/refs/heads/main/Games/ClydexAzx%20Gunfight%20Arena.lua"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/clydedc/roblox/refs/heads/main/Games/Z3US%20Gunfight%20Arena.lua"))()
 		elseif selectedOption == "Universal" then
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/clydedc/roblox/refs/heads/main/Games/ClydexAzx%20Universal.lua"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/clydedc/roblox/refs/heads/main/Games/Z3US%20Universal.lua"))()
 		end
 	else
 		textLabel6.Text = "Please select a script!"
